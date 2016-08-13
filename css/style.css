@@ -2,10 +2,149 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 14px;
   line-height: 24px;
-  text-transform: uppercase;;
+  text-transform: uppercase;
   background-color: #242424;
   color: #000000;
   font-weight: bold;
+}
+.main-header {
+  margin-bottom: 60px;
+  /* Только для оформления сетки */
+  background-color: #ee0c31;
+  outline: 4px solid #dfec0d;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  /* Только для оформления сетки */
+  outline: 2px solid #071df0;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  /* Только для оформления сетки */
+  min-height: 72px;
+  background-color: #8a79b5;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.main-navigation li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  font-size: 0;
+  /* Только для оформления сетки */
+  min-height: 72px;
+  background-color: #7eacd7;
+}
+
+.login {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 60px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  /* Только для оформления сетки */
+  outline: 2px solid #64a361;
+}
+
+.features {
+  margin-bottom: 80px;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  /* Только для оформления сетки */
+  min-height: 175px;
+  background-color: #7ed7ac;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.features-name {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumbs {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  /* Только для оформления сетки */
+  background-color: #09dd77;
+  outline: 2px solid #dfa08a;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+
+}
+.breadcrumbs li:first-child {
+  margin-left: 0;
+}
+
+.breadcrumbs li a {
+  color: #000000;
+}
+.current-page {
+  color: #aba9a7;
 }
 
 h1 {
@@ -13,7 +152,267 @@ h1 {
   line-height: 42px;
 }
 
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  /* Только для оформления сетки */
+  outline: 2px solid #4c91b8;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+  background-color: #ced91f;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+  background-color: #ced91f;
+}
+
+.gallery-content {
+  display: block;
+  margin-top: 35px;
+  margin-left: 7px;
+  margin-bottom: 45px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  /* Только для оформления сетки */
+  background-color: #cbdede;
+  outline: 4px solid #ae6ccd;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+  background-color: #e9ac1a;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+  background-color: #e9ac1a;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+  background-color: #e9ac1a;
+}
+
+.main-content-left {
+  float: left;
+  width: 230px;
+  margin-right: 10px;
+  /* Только для оформления сетки */
+  min-height: 580px;
+  background-color: #8bddee;
+}
+
 h2 {
   font-size: 24px;
   line-height: 30px;
+}
+
+.main-content-left form {
+  display: inline-block;
+  vertical-align: baseline;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.main-content-right {
+  float: right;
+  width: 700px;
+  font-size: 0;
+  /* Только для оформления сетки */
+  min-height: 580px;
+  background-color: #8bddee;
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 220px;
+  min-height: 290px;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  /* Только для оформления сетки */
+  outline: 2px solid #000000;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.catalog-item img {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: block;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+  color: #000000;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.item-title {
+  display: block;
+  padding-left: 16px;
+  color: #000000;
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.price {
+  margin-top: 15px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  font-size: 0px;
+}
+
+.pagination {
+  margin-top: 25px;
+  margin-left: 240px;
+  font-size: 0px;
+  background-color: #d07113;
+}
+
+.pagination a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: 45px;
+  height: 21px;
+  width: 21px;
+  padding: 11px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.pagination-current {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: 45px;
+  height: 21px;
+  width: 21px;
+  padding: 11px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.content-left {
+  float: left;
+  width: 460px;
+  margin-right: 90px;
+  /* Только для оформления сетки */
+  min-height: 671px;
+  background-color: #8bddee;
+}
+
+.item-pic {
+  display: block;
+  margin: 0 auto;
+}
+
+.item-pic-small {
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.item-pic-small img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 21px;
+}
+
+.item-pic-small img:nth-child(3) {
+  margin-right: 0;
+}
+
+.content-right {
+  float: left;
+  width: 390px;
+  /* Только для оформления сетки */
+  min-height: 671px;
+  background-color: #8bddee;
+}
+
+.item-description {
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
+}
+
+.current-item {
+  color: #aeaeae;
+}
+
+.price-right {
+  margin-top: 40px;
+  margin-bottom: 65px;
+  font-size: 0px;
+}
+
+.item-price {
+  display: inline-block;
+  vertical-align: top;;
+  height: 21px;
+  width: 87px;
+  padding: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+
+.btn-price {
+  display: inline-block;
+  vertical-align: top;;
+  height: 21px;
+  width: 56px;
+  padding: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.consist {
+  /* Только для оформления сетки */
+  outline: 2px solid #dfa08a;
 }
